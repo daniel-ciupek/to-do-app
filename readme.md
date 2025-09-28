@@ -1,4 +1,4 @@
-![cover](./src/assets/img/avatar-ciupas.png)
+![cover](https://github.com/daniel-ciupek/to-do-app/blob/master/src/assets/img/logo-ciupas.png)
 
 # To-Do-App
 
