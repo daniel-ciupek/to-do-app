@@ -4,5 +4,7 @@
 
 A simple PWA task management app — it lets you add tasks, mark them as completed, and remove finished ones.
 
+# WORK WITH AI
+THE APPLICATION WAS CREATED AS PART OF LEARNING HOW TO USE ARTIFICIAL INTELLIGENCE. TESTING THE ACCURACY OF PROMPTS AND FIXING PROBLEMS.
 
 

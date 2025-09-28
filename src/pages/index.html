@@ -64,32 +64,33 @@
     <link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
   </head>
   <body>
-     <div class="app">
-    <h1>To-Do App</h1>
+ <div class="app">
+    <h1>Moja lista zadań</h1>
 
+    
     <form id="task-form">
-      <input type="text" id="task-input" placeholder="Dodaj zadanie..." required>
-      <select id="task-status">
-        <option value="todo">Do zrobienia</option>
-        <option value="in-progress">W trakcie</option>
-      </select>
-      <button type="submit">Dodaj</button>
+      <textarea id="task-input" placeholder="Wpisz zadanie" required></textarea>
+      <button type="submit" class="add-btn">➕ Dodaj</button>
     </form>
 
-    <div class="task-lists">
-      <div class="task-column">
+    
+    <div class="lists">
+      <section class="list-card">
         <h2>Do zrobienia</h2>
         <ul id="todo-list"></ul>
-      </div>
-      <div class="task-column">
+      </section>
+
+      <section class="list-card">
         <h2>W trakcie</h2>
         <ul id="in-progress-list"></ul>
-      </div>
-      <div class="task-column">
+      </section>
+
+      <section class="list-card">
         <h2>Zrobione</h2>
         <ul id="done-list"></ul>
-      </div>
+      </section>
     </div>
   </div>
+
   </body>
 </html>
