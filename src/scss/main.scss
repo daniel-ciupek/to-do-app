@@ -61,6 +61,8 @@ form {
   word-wrap: break-word;
   overflow-wrap: anywhere;
   white-space: pre-wrap;
+  max-width: 100%; 
+  box-sizing: border-box;
 
   &:focus {
     border-color: #666;
