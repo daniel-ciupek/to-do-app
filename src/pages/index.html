@@ -64,9 +64,32 @@
     <link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo-ciupas.png" alt="WTF ">
-      <span class="hello__circles"></span>
+     <div class="app">
+    <h1>To-Do App</h1>
+
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Dodaj zadanie..." required>
+      <select id="task-status">
+        <option value="todo">Do zrobienia</option>
+        <option value="in-progress">W trakcie</option>
+      </select>
+      <button type="submit">Dodaj</button>
+    </form>
+
+    <div class="task-lists">
+      <div class="task-column">
+        <h2>Do zrobienia</h2>
+        <ul id="todo-list"></ul>
+      </div>
+      <div class="task-column">
+        <h2>W trakcie</h2>
+        <ul id="in-progress-list"></ul>
+      </div>
+      <div class="task-column">
+        <h2>Zrobione</h2>
+        <ul id="done-list"></ul>
+      </div>
     </div>
+  </div>
   </body>
 </html>
